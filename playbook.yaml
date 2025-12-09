@@ -1,15 +1,15 @@
 ---
-- name: نصب Apache روی سرور
+- name: install on server linux
   hosts: web
   become: true
   tasks:
-    - name: نصب Apache
+    - name: install Apache
       apt:
         name: apache2
         state: present
         update_cache: yes
 
-    - name: فعال و اجرا کردن Apache
+    - name: execute Apache
       service:
         name: apache2
         state: started
