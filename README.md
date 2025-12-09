@@ -1,8 +1,8 @@
 # Ansible Apache Install
 
-پروژه انسیبل برای نصب Apache روی یک سرور لینوکسی
+project for install ansible on serverlinux Apache
 
-## اجرا
+##execute
 
 ```bash
 ansible-playbook -i inventory.ini playbook.yml
